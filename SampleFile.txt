@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Sample File for testing Fetch 
 
 Making additional corrections in teh local file 
+=======
+
+Additional change done from GIT Online 
