@@ -6,5 +6,11 @@ jobs:
      steps:
      - run: echo " This is a test "
      - run: echo " Triggered by ${{ github.event_name }} event "
+     - run: echo " The job is running on a ${{ runner.os}} server hosted by GITHub "
+     - run: echo " The name of branch and Repo ${{github.ref}} and ${{github.repository}}"
+     - name: List files in the repository 
+       run: |
+          ls ${{ github.workspace }}
+     - run: echo "Status of the Job is ${{ job.status}}"
      
         
