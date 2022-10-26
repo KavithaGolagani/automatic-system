@@ -1,0 +1,10 @@
+name: test-workflow
+on: [push]
+jobs: 
+   explore-test-workflow
+     runs-on:latest
+     steps:
+     - run: echo " This is a test "
+     - run: echo " Triggered by ${{ github.event_name }} event "
+     
+        
